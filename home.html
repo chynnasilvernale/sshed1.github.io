@@ -1,72 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shape Shed</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Assuming there's a styles.css file for styling -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Shape Shed is a body contouring and wellness brand focused on helping clients feel strong, confident, and informed.">
+  <title>Shape Shed | Home</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="logo.png" alt="Shape Shed Logo"> <!-- Placeholder for logo -->
-        </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li> <!-- Updated link to point to index.html -->
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section class="hero">
-        <h1>Sculpt Your Confidence</h1>
-    </section>
-    <section class="about">
-        <h2>About Us</h2>
-        <p>Welcome to Shape Shed, where we empower you to transform your body and mind. Our services are designed to help you achieve your wellness goals.</p>
-    </section>
-    <section class="featured-services">
-        <h2>Featured Services</h2>
-        <div class="service-card">
-            <h3>Emslim Abs</h3>
-            <p>Transform your core with our Emslim Abs treatment.</p>
-        </div>
-        <div class="service-card">
-            <h3>Emslim Glutes</h3>
-            <p>Enhance your curves with our Emslim Glutes treatment.</p>
-        </div>
-    </section>
-    <section class="gallery-preview">
-        <h2>Before and After Gallery</h2>
-        <div class="gallery">
-            <img src="before1.jpg" alt="Before Image 1">
-            <img src="after1.jpg" alt="After Image 1">
-        </div>
-    </section>
-    <section class="wellness-tips">
-        <h2>Wellness Tips</h2>
-        <ul>
-            <li>Stay Hydrated</li>
-            <li>Balanced Eating</li>
-            <li>Regular Movement</li>
+  <header>
+    <div class="container header-wrap">
+      <div class="brand">
+        <img src="logo.png" alt="Shape Shed Logo" class="logo">
+      </div>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="before-after.html">Before &amp; After</a></li>
+          <li><a href="wellness-tips.html">Wellness Tips</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-bg">
+        <img src="hero-image.jpg" alt="Shape Shed wellness environment">
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="container hero-content">
+        <p class="eyebrow">Body Contouring &amp; Wellness</p>
+        <h1>Sculpt Your<br><span class="accent">Confidence</span></h1>
+        <p class="hero-text">Welcome to Shape Shed — a modern body contouring and wellness brand focused on helping you feel strong, confident, and informed.</p>
+        <div class="hero-buttons">
+          <a href="contact.html" class="btn btn-primary">Request a Consultation</a>
+          <a href="services.html" class="btn btn-outline">Explore Services</a>
+        </div>
+      </div>
     </section>
-    <section class="video">
-        <h2>Watch Our Video</h2>
-        <video controls>
-            <source src="video.mp4" type="video/mp4"> <!-- Placeholder for video -->
-            Your browser does not support the video tag.
+
+    <!-- About Section -->
+    <section class="about">
+      <div class="container about-grid">
+        <div class="about-image">
+          <img src="machine.jpg" alt="About Shape Shed">
+        </div>
+        <div class="about-text">
+          <h2>About Shape Shed</h2>
+          <p>Shape Shed is designed to provide a clean, professional, and welcoming online space for people interested in body contouring, wellness, and self-confidence.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Services -->
+    <section class="services" id="services">
+      <div class="container">
+        <h2>Featured Services</h2>
+        <p class="section-text">Explore the types of services Shape Shed may offer to support toning, sculpting, and confidence goals.</p>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Emslim Abs</h3>
+            <p>A service focused on strengthening and toning the abdominal area through non-invasive muscle stimulation.</p>
+          </article>
+          <article class="card">
+            <h3>Emslim Glutes</h3>
+            <p>A treatment option designed to support lift, tone, and definition in the glute area.</p>
+          </article>
+          <article class="card">
+            <h3>Consultation</h3>
+            <p>A personalized meeting to discuss goals, target areas, and wellness habits that may support results.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Before & After Preview -->
+    <section class="results" id="results">
+      <div class="container">
+        <h2>Before &amp; After Inspiration</h2>
+        <p class="section-text">This section can be used to showcase sample results, gallery images, or client transformations.</p>
+        <div class="gallery-grid">
+          <div class="gallery-box"><img src="before after 1.jpg" alt="Before and After Result 1"></div>
+          <div class="gallery-box"><img src="before after 2.jpg" alt="Before and After Result 2"></div>
+          <div class="gallery-box"><img src="before after 3.jpg" alt="Before and After Result 3"></div>
+        </div>
+        <div class="center-btn">
+          <a href="before-after.html" class="btn btn-primary">View All Results</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wellness Tips Preview -->
+    <section class="wellness" id="wellness">
+      <div class="container">
+        <h2>Wellness Tips</h2>
+        <p class="section-text">Healthy habits can support confidence and wellness goals.</p>
+        <div class="tips-grid">
+          <article class="tip-card">
+            <h3>Hydration</h3>
+            <p>Drinking enough water each day supports overall wellness and helps the body function at its best.</p>
+          </article>
+          <article class="tip-card">
+            <h3>Balanced Eating</h3>
+            <p>Meals with protein, fruits, vegetables, and whole grains can help support energy and healthy routines.</p>
+          </article>
+          <article class="tip-card">
+            <h3>Movement</h3>
+            <p>Regular physical activity can complement wellness and body sculpting goals in a realistic way.</p>
+          </article>
+        </div>
+        <div class="center-btn">
+          <a href="wellness-tips.html" class="btn btn-primary">More Wellness Tips</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section">
+      <div class="container">
+        <h2>Featured Video</h2>
+        <p class="section-text">This video area can be used for a short welcome clip, treatment room preview, or wellness feature.</p>
+        <video controls width="100%">
+          <source src="EMS Demo Video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
         </video>
+      </div>
     </section>
-    <section class="call-to-action">
-        <h2>Get Started Today!</h2>
-        <p>Ready to embark on your fitness journey? <a href="contact.html">Contact us</a> to learn more!</p>
+
+    <!-- CTA Section -->
+    <section class="cta">
+      <div class="container">
+        <h2>Ready to Start Your Journey?</h2>
+        <p>Contact us today to schedule your consultation and learn more about our body contouring services.</p>
+        <a href="contact.html" class="btn btn-primary">Get Started</a>
+      </div>
     </section>
-    <footer>
-        <p>&copy; 2026 Shape Shed. All rights reserved.</p>
-    </footer>
+  </main>
+
+  <footer>
+    <div class="container footer-wrap">
+      <p>&copy; 2026 Shape Shed. All rights reserved.</p>
+      <p><a href="mailto:info@shapeshed.com">info@shapeshed.com</a></p>
+    </div>
+  </footer>
 </body>
 </html>
